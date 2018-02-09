@@ -1,0 +1,26 @@
+{
+  "name": "timer-lib",
+  "version": "1.0.2",
+  "description": "A ReactJS component to create a clock timer to any desired date. The deadline date is passed as props to the component.",
+  "main": "lib/Timer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/.bin/webpack --progress --colors --p",
+    "transpile": "node_modules/.bin/babel ./src/Timer.js --presets babel-preset-es2015 --out-file lib/Timer.js"
+  },
+  "author": "Prakhar Gupta",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.2.0"
+  }
+}
