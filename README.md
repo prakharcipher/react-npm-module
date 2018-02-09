@@ -1,6 +1,6 @@
 # timer-lib
 
-This is a re-usable ReactJS component to create a countdown to any deadline date. The code in written following the modern ES6 standard and styled by react-bootstrap.
+This is a re-usable ReactJS component to create a countdown to any deadline date. The code is written following the modern ES6 standard and is styled by react-bootstrap.
 
 ## Getting Started
 
